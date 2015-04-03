@@ -31,6 +31,9 @@
 		"contao-components/compass": "~0.12"
 	},
 	"autoload": {
-		"classmap": ["system/modules"]
+		"classmap": [
+			"system/modules",
+			"system/helper/interface.php"
+		]
 	}
 }
