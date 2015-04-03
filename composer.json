@@ -23,6 +23,9 @@
 		"contao-community-alliance/composer-plugin": "*"
 	},
 	"autoload": {
-		"classmap": ["system/modules"]
+		"classmap": [
+			"system/modules",
+			"system/helper/interface.php"
+		]
 	}
 }
