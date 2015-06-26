@@ -2,6 +2,8 @@
 	"name": "contao/core",
 	"type": "project",
 	"description": "Contao Open Source CMS",
+	"keywords": ["contao","core"],
+	"homepage": "https://contao.org",
 	"license": "LGPL-3.0+",
 	"authors": [
 		{
@@ -9,8 +11,15 @@
 			"homepage": "https://github.com/leofeyer"
 		}
 	],
+	"support": {
+		"email":"github@contao.org",
+		"issues":"https://github.com/contao/core/issues",
+		"irc":"irc://irc.freenode.org/contao",
+		"source":"https://github.com/contao/core.git"
+	},
 	"require": {
-		"php": ">=5.4.0",
+		"contao-community-alliance/composer-plugin": "~2.0",
+		"php": ">=5.3.7",
 		"leafo/scssphp": "~0.1",
 		"michelf/php-markdown": "~1.4",
 		"oyejorge/less.php": "~1.7",
@@ -20,5 +29,11 @@
 		"tecnick.com/tcpdf": "~6.0",
 		"true/punycode": "~1.0",
 		"contao-components/compass": "~0.12"
+	},
+	"autoload": {
+		"classmap": [
+			"system/modules",
+			"system/helper/interface.php"
+		]
 	}
 }
