@@ -1,0 +1,31 @@
+{
+	"name": "contao/core",
+	"description": "Contao Open Source CMS",
+	"keywords": ["contao","core"],
+	"homepage": "https://contao.org",
+	"license": "LGPL-3.0",
+	"authors": [
+		{
+			"name":"Leo Feyer",
+			"email":"github@contao.org",
+			"homepage":"https://contao.org",
+			"role":"Project leader"
+		}
+	],
+	"support": {
+		"email":"github@contao.org",
+		"issues":"https://github.com/contao/core/issues",
+		"irc":"irc://irc.freenode.org/contao",
+		"source":"https://github.com/contao/core.git"
+	},
+	"require": {
+		"php": ">=5.3.2",
+		"contao-community-alliance/composer-plugin": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"system/modules",
+			"system/helper/interface.php"
+		]
+	}
+}
