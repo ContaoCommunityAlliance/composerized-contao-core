@@ -19,7 +19,7 @@
 	},
 	"require": {
 		"contao-community-alliance/composer-plugin": "~2.0",
-		"php": ">=5.3.7",
+		"php": ">=5.4.0",
 		"leafo/scssphp": "~0.1",
 		"michelf/php-markdown": "~1.4",
 		"oyejorge/less.php": "~1.7",
