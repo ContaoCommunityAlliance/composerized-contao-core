@@ -33,7 +33,20 @@
 	},
 	"autoload": {
 		"classmap": [
-			"system/modules",
+			"system/modules/backend",
+			"system/modules/calendar",
+			"system/modules/comments",
+			"system/modules/faq",
+			"system/modules/frontend",
+			"system/modules/listing",
+			"system/modules/news",
+			"system/modules/newsletter",
+			"system/modules/registration",
+			"system/modules/rep_base",
+			"system/modules/rep_client",
+			"system/modules/rss_reader",
+			"system/modules/tasks",
+			"system/modules/tpl_editor",
 			"system/libraries"
 		]
 	}
