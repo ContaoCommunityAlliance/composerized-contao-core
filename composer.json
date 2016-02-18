@@ -32,6 +32,16 @@
 		"contao/newsletter-bundle": "self.version"
 	},
 	"autoload": {
-		"classmap": ["system/modules"]
+		"classmap": [
+			"system/modules/calendar",
+			"system/modules/comments",
+			"system/modules/core",
+			"system/modules/devtools",
+			"system/modules/faq",
+			"system/modules/listing",
+			"system/modules/news",
+			"system/modules/newsletter",
+			"system/modules/repository"
+		]
 	}
 }
